@@ -1,3 +1,7 @@
+The Lockdown extension relwase 1.27 is broken. 
+
+This fork reverts the extension o before the date it was broken (Dec 15, 2017).
+
 --------------------------------------------------------------------------
 README for the Lockdown extension
 Copyright © 2006 Daniel Kinzler
