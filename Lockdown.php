@@ -239,7 +239,7 @@ class Lockdown {
 	 * @return bool false if the user does not have permission
 	 */
 	protected static function namespaceCheck( $ns, array $ugroups ) {
-		$groups = namespaceGroups( $ns );
+		$groups = self::namespaceGroups( $ns );
 		if ( is_array( $groups ) && !array_intersect( $ugroups, $groups ) ) {
 			return false;
 		}
